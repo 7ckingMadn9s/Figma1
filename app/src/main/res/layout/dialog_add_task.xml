@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Название задачи:" android:textStyle="bold" />
+
+    <EditText android:id="@+id/edit_text_task_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Введите название задачи" android:inputType="text" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Приоритет:" android:textStyle="bold" />
+
+    <RadioGroup android:id="@+id/radio_group_priority" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/radio_button_high" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Высокий" />
+
+        <RadioButton android:id="@+id/radio_button_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Средний" />
+
+        <RadioButton android:id="@+id/radio_button_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Низкий" />
+
+    </RadioGroup>
+
+</LinearLayout>
